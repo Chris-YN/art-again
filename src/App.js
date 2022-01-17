@@ -53,6 +53,7 @@ function App() {
         return (
           <div key={artwork.id}>
             <h2>{artwork.longTitle}</h2>
+            <p>this bit is updated</p>
             <img src={artwork.webImage.url} alt={artwork.title} />
           </div>
         )
